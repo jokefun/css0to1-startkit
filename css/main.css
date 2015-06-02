@@ -104,6 +104,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
 }
 
+.info-section ul {
+	list-style: none;
+	padding: 0;
+}
+
 /*.info-section h3, .info-section p {
 	padding: 0;
 	margin: 0;
@@ -117,6 +122,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-section__description {
   font-style: italic;
+}
+
+.info-section h2::after {
+	content: "";
+	display: block;
+	margin: 10px auto;
+	width: 10%;
+	border-bottom: 3px solid black
 }
 
 .whatido__skill {
