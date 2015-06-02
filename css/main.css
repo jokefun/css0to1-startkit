@@ -102,7 +102,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 60px;
   text-align: center;
   background-color: #fff;
-  overflow: hidden;
 }
 
 /*.info-section h3, .info-section p {
@@ -120,10 +119,6 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
-.whatido {
-/*	overflow: hidden;*/
-}
-
 .whatido__skill {
 	float: left;
 	width: 33%;
@@ -133,6 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 60px;
 	list-style: none;
 	padding: 0px;
+	overflow: hidden;
 }
 
 .whatido__skill--code {
