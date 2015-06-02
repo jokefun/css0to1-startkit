@@ -128,7 +128,6 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 60px;
 	list-style: none;
 	padding: 0px;
-	overflow: hidden;
 }
 
 .whatido__skill--code {
@@ -152,3 +151,8 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center top;
 }
 
+.clearfix::after {
+  content:"";
+  display:table;
+  clear:both;
+}
