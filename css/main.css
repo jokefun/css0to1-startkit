@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 60px;
   text-align: center;
   background-color: #fff;
+	border-bottom: 1px solid black
 }
 
 .info-section ul {
@@ -127,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 .info-section h2::after {
 	content: "";
 	display: block;
-	margin: 10px auto;
+	margin: 20px auto;
 	width: 10%;
 	border-bottom: 3px solid black
 }
@@ -168,4 +169,62 @@ h1, h2, h3, h4, h5, h6 {
   content:"";
   display:table;
   clear:both;
+}
+
+.education-experience__list {
+	margin-top: 60px;
+	text-align: left;
+}
+
+.education-experience__list li {
+	margin: 30px 60px;
+	overflow: hidden;
+}
+
+.education-experience__list img {
+	width: 180px;
+	float: left;
+	margin-right: 60px;
+}
+
+.education-experience__list__description {
+	overflow: hidden;
+}
+
+.education-experience__list__description h3 {
+  margin: 0;
+  font-size: 25px;
+  color: black;
+}
+
+.education-experience__title {
+	margin: 0;
+}
+
+.photos__list {
+	overflow: hidden;
+}
+
+.photos__list li {
+	padding: 10px;
+	width: 25%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.photos__list img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.get-in-touch__list {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.get-in-touch__list li {
+	margin: 0 10px;
+/*	float: left;*/
+	display: inline-block;
 }
