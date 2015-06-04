@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 60px;
   text-align: center;
   background-color: #fff;
-	border-bottom: 1px solid black
+  border-bottom: 1px solid black
 }
 
 .info-section ul {
@@ -227,4 +227,46 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 10px;
 /*	float: left;*/
 	display: inline-block;
+}
+
+.contact form {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+.contact__input {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.contact__input label {
+	display: block;
+	padding: 8px 15px;
+	width: 100%;
+	text-align: right;
+	box-sizing: border-box;
+	position: absolute;
+	left: -100%;
 }
